@@ -1,0 +1,6 @@
+dependencies:
+- name: jenkins
+  repository: https://charts.jenkins.io
+  version: 3.2.0
+digest: sha256:c1473e378617b87480cfc3909e0caea5420b85a7852c23f652ac943e1a29c760
+generated: "2021-04-20T21:46:48.762574-07:00"
