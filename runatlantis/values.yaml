@@ -1,9 +1,9 @@
 ingress.enabled: true
 ingress.host: atlantis.likens.us
 github:
-  user: scottmlikens
-  token: redacted
-  secret: redacted
+  user: foo
+  token: bar
+  secret: baz
 repoConfig: |
  ---
  repos:
