@@ -1,0 +1,5 @@
+nfs:
+  server: 192.168.1.230
+  path: /data/export
+storageClass:
+  name: "nfs-provisioner"
