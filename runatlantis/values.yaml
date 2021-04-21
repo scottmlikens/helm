@@ -1,9 +1,11 @@
 ingress.enabled: true
 ingress.host: atlantis.likens.us
-repoConfig:
-  repos:
-    - id: /.*/
-    allowed_overrides: ["workflow"]
-    apply_requirements: ["mergeable"]
-    workflow: default
-    allow_custom_workflows: true
+repoConfig: |
+ ---
+ repos:
+ - id: /.*/
+   apply_requirements: ["workflow"]
+   workflow: default
+   apply_requireents: ["mergeable"]
+   allowed_overrides: ["workflow"]
+   allow_custom_workflows: true
