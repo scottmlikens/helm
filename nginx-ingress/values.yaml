@@ -1,0 +1,6 @@
+ingress-nginx:
+  k8s_create_namespace: true
+  k8s_namespace: "jenkins"
+  controller:
+    config:
+      use-forwarded-headers: "true"

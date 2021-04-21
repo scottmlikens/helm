@@ -1,0 +1,1 @@
+argocdproj-deployment example
