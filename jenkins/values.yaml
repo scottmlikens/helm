@@ -6,7 +6,7 @@ jenkins:
     adminUser: "admin"
     adminPassword: "temp12345"
     installPlugins: ["kubernetes","workflow-aggregator","git","configuration-as-code","prometheus","blueocean"]
-  ingress:
-    enabled: true
-    hostName: "jenkins.likens.us"
+    ingress:
+      enabled: true
+      hostName: "jenkins.likens.us"
   
