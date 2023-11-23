@@ -8,5 +8,5 @@ jenkins:
     installPlugins: ["kubernetes","workflow-aggregator","git","configuration-as-code","prometheus","blueocean"]
     ingress:
       enabled: true
-      hostName: "jenkins.likens.us"
+      hostName: "jenkins.k8s.likens.us"
   
