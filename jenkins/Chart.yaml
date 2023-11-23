@@ -3,5 +3,5 @@ description: A Helm chart for Kubernetes
 version: 1.0
 dependencies:
   - name: jenkins
-    version: 3.3.8
+    version: 4.8.3
     repository: "https://charts.jenkins.io"
