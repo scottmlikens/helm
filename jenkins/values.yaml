@@ -9,4 +9,5 @@ jenkins:
     ingress:
       enabled: true
       hostName: "jenkins.k8s.likens.us"
+      ingressClassName: nginx
   
