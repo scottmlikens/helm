@@ -1,0 +1,23 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: pyroscope
+  namespace: argocd
+spec:
+  destionation:
+    namespace: pyroscope
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: 'https://grafana.github.io/helm-charts'
+    targetRevision: 1.3.0
+    chart: pyroscsope
+    helm:
+      passCredentials: true
+      valueFiles:
+        - https://github.com/scottmlikens/helm/blob/main/pyroscope/values.yaml
+  project: default
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - createNamespace=true
