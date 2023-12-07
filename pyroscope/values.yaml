@@ -1,6 +1,4 @@
 pyroscope:
-  minio:
-    enabled: true
   ingress:
     enabled: true
     hosts:
